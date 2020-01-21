@@ -1,0 +1,15 @@
+//Variables Here
+@bg-color: #52acff;
+@bg-shade: linear-gradient(180deg, #52acff 25%, #ffe32c 100%);
+
+//Mixins Here
+.center(@justify, @align) {
+  display: flex;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.push(@marginTop, @marginBot) {
+  margin-top: @marginTop;
+  margin-bottom: @marginBot;
+}
